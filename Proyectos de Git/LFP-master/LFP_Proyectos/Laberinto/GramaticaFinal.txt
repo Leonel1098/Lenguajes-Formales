@@ -1,0 +1,93 @@
+Gramatica Tipo 2 
+
+<Inicio>::=[Tk.Prinicipal]:{<CuerpoPrincipal>}
+
+<CuerpoPrincipal>::=[Tk.intervalo]:<bloque_inter><repetir>
+					|[Tk.nivel]: <bloque_nivel><repetir>
+					|[Tk.enemigo]: <bloque_enemigo><repetir>
+					|[Tk.personaje]: <bloque_personaje><repetir>
+					
+					
+<repetir>::=[Tk.intervalo]: <bloque_inter><repetir>
+			|[Tk.nivel]: <bloque_nivel><repetir>
+			|[Tk.enemigo]: <bloque_enemigo><repetir>
+			|[Tk.personaje]: <bloque_personaje><repetir>
+			|EP
+			
+<bloque_inter>::= (numero);
+
+<bloque_nivel>::={<CuerpoNivel>}
+
+<CuerpoNivel>::= [Tk.Dimensiones]:<bloque_dimensiones><CN>
+				 |[Tk.Inicio]:<bloque_dimensiones><CN>
+				 |[Tk.Salida]:<bloque_dimensiones><CN>
+				 |[Tk.pared]: {<bloque_pared>}<CN>
+				 
+<^CN>::= [Tk.Dimensiones]:<bloque_dimensiones><^CN>
+				 |[Tk.Inicio]:<bloque_dimensiones><^CN>
+				 |[Tk.Salida]:<bloque_dimensiones><^CN>
+				 |[Tk.pared]: {<bloque_pared>}<^CN>
+				 |Ep 
+				 
+<bloque_dimensiones>::= (numero,numero);
+
+<bloque_pared>::= [Tk.Casilla]:<espacio> <Rep_Pared>
+				  |[Tk.VariasCasillas]: <espacios> <Rep_Pared>
+				  |[Tk.Variable]:= <Dec_varialbe> <Rep_Pared>
+				  |identificador:= <Asig_Variable> <Rep_Pared>
+				  
+<Rep_Pared>::= [Tk.Casilla]: <espacio> <Rep_Pared>
+				|[Tk.VariasCasillas]: <espacios> <Rep_Pared>
+				|[Tk.Variable]: <Dec_varialbe> <Rep_Pared>
+				|identificador:= <Asig_Variable> <Rep_Pared>
+				|Ep
+				
+<Num_id>::= numero| identificador //verificar error				
+<espacio>::=(<Num_id>,<Num_id>);
+
+<espacios>::=(<Num_id>..<Num_id>,<Num_id>);
+			 |(<Num_id>,<Num_id>..<Num_id>);
+			 |(<Num_id>..<Num_id>,<Num_id>..<Num_id>);
+			 
+<Dec_varialbe>::= identificador<Rep_id>;
+<Rep_id>::=,identificador<Rep_id>
+			|Ep
+			
+<Asig_Variable>--> <Num_id>+<Num_id>;
+			      |<Num_id>-<Num_id>;
+			      |<Num_id>*<Num_id>;
+			      |<Num_id>/<Num_id>;
+			      |<Num_id>;
+				  
+<bloque_enemigo>::= {<CuerpoEnemigo>}
+
+<CuerpoEnemigo>::= [Tk.Caminata]:(<Caminar>);<Otra_Caminata>
+					|Ep
+
+<Otra_Caminata>::= [Tk.Caminata]:(<Caminar>);<Otra_Caminata>
+					| Ep 
+					
+<Caminar>::= numero..numero,numero
+			|numero,numero..numero
+
+			
+<bloque_personaje>::= [Tk.Personaje]:{<CuerpoPersonaje>}
+
+<CuerpoPersonaje>::= [Tk_Paso]:<paso><RepetirCuerpo>
+					|[Tk_Caminata]:<Moverse> <RepetirCuerpo>
+					|[Variable]:<Dec_Variable> <RepetirCuerpo>
+				    |identificador:=<Asig_Variables> <RepetirCuerpo>
+					
+<RepetirCuerpo>::= [Tk_Paso]:<Paso><RepetirCuerpo>
+					|[Tk_Caminata]:<Moverse> <RepetirCuerpo>
+					|[Variable]:=<Dec_Variable> <RepetirCuerpo>
+				    |identificador:=<Asig_Variables> <RepetirCuerpo>
+					| Ep
+					
+					
+<Paso>::= (<Num_id>,<Num_id>);
+
+<Moverse>::= (<Num_id>..<Num_id>,<Num_id>);
+			 |(<Num_id>,<Num_id>..<Num_id>);
+				
+			 

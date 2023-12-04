@@ -1,0 +1,10 @@
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\bin\Debug\PruebaTablero.exe.config
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\bin\Debug\PruebaTablero.exe
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\bin\Debug\PruebaTablero.pdb
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\obj\Debug\PruebaTablero.csprojAssemblyReference.cache
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\obj\Debug\PruebaTablero.Form1.resources
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\obj\Debug\PruebaTablero.Properties.Resources.resources
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\obj\Debug\PruebaTablero.csproj.GenerateResource.cache
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\obj\Debug\PruebaTablero.csproj.CoreCompileInputs.cache
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\obj\Debug\PruebaTablero.exe
+C:\Users\feliciano07\Desktop\LFP\PruebaTablero\PruebaTablero\obj\Debug\PruebaTablero.pdb

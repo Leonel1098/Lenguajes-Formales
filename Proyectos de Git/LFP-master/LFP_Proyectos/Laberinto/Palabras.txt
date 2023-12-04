@@ -1,0 +1,26 @@
+CORCHETE_IZQ [
+CORCHETE_DER ]
+DOS_PUNTOS :
+LLAVE_IZQ {
+LLAVE_DER }
+PUNTO_COMA ;
+PUNTO .
+COMA ,
+PARENTESIS_IZQ (
+PARENTESIS_DER )
+IGUAL =
+OPERADORES + * / -
+
+
+PALABRA_RESERVADAS 
+{Principal,intervalo,nivel,dimensiones,inicio_personaje
+ubicacion_salida,pared,rango_casillas,casillas,
+personaje,paso,caminata,enemigo,caminata}
+
+Variable 
+
+identificador
+
+otro
+
+DIGITO

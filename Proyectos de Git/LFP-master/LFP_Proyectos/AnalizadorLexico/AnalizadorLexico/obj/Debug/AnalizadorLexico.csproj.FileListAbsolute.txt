@@ -1,0 +1,11 @@
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe.config
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.pdb
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csprojAssemblyReference.cache
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.Properties.Resources.resources
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.GenerateResource.cache
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.CoreCompileInputs.cache
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.exe
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.pdb
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.Form1.resources
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.Form2.resources

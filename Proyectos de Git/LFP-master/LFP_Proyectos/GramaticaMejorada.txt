@@ -1,0 +1,68 @@
+GRAMTICA TIPO 2 
+
+<Inicio>::=[Tk_principal]:{<bloque_Intervalo><Cuerpo><nuevo_Bloque>}
+
+<bloque_Intervalo>::=[Tk_inver]:(numero);
+
+<Cuerpo>::=[Tk_nivel]<bloque_nivel>
+			|[Tk_enemigo]<bloque_enemigo>
+			|[Tk_personaje]<bloque_personaje>
+			
+<nuevo_Bloque>::=<Cuerpo><nuevo_Bloque> | Ep
+
+<bloque_nivel>::={<CuerpoNivel>}
+
+<CuerpoNivel>::=<Config><Config><Config><bloque_pared>
+
+<Config>::=[Tk_Reser]:(numero,numero);
+
+<bloque_pared>::=[Tk_pared]:{<CuerpoPared><RepCuerpoPared>}
+
+<RepCuerpoPared>::=<CuerpoPared><RepCuerpoPared> | Ep
+
+<CuerpoPared>::=[Tk_Casilla]:<casilla>
+				|[Tk_casillas]:<casillas>
+				|[Variable]:=<Dec_Variable>
+				|identificador:=<Asig_Variables>
+
+<casilla>::= (<Posicion>);
+<Posicion>::=<Num_id>,<Num_id>
+
+<casillas>::=(<Posiciones>);
+
+<Posiciones>::=
+			  | <Num_id>..<Num_id>,<Num_id>
+			  |<Num_id>,<Num_id>..<Num_id>
+			  |<Num_id>..<Num_id>,<Num_id>..<Num_id>
+			  
+			  
+<Num_id>::=numero|identificador
+
+<Dec_Variable>::=identificador<Otro_Id>;
+<Otro_Id>::=,identificador<Rep_Id>;
+			|Ep
+			
+<Rep_Id>::=,identificador<Rep_Id>;
+			| Ep
+			
+<Asig_Variables>::=<Num_id>+<Num_id>;
+			  |<Num_id>-<Num_id>;
+			  |<Num_id>*<Num_id>;
+			  |<Num_id>/<Num_id>;
+			  |<Num_id>;
+			  
+<bloque_enemigo>::={<CuerpoEnemigo>}
+<CuerpoEnemigo>::=<Caminata><RepeCaminata>
+<Caminata>::=[Tk_caminata]:(<Caminar>);
+<Caminar>::=numero..numero,numero
+			|numero,numero..numero
+			
+<RepeCaminata><Caminata><RepeCaminata>;
+
+<bloque_personaje>::={<CuerpoPersonaje><RepCuerpoPersonaje>};
+
+<CuerpoPersonaje>::=[Tk_Paso]:<casilla>
+					|[Tk_caminar]:<casillas>
+					|[Variable]:=<Dec_Variable>
+				    |identificador:=<Asig_Variables>
+

@@ -1,0 +1,21 @@
+voy a tener una matriz de dimensiones
+1---> representa que la casilla esta vacia 
+2---> representa que la casilla esta ocupada
+
+voy a tener una par que representa la posicion inicial 
+int inicioX, int inicioY
+
+Voy a tener otro par de cordenadas que representa el final 
+int finX, int finY 
+
+
+LoadForm voy a cargar la ventana y le cambio el tamaño segun la matriz
+
+
+
+Form1Paint voy a pintar todos los elementos que trae el archivo de entrada. 
+
+
+Voy a crear una clase de cordenas, por donde va a pasar
+luego creo una lista con esas cordenadas
+

@@ -1,0 +1,65 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=seashell2];
+nodo0[ label= "Cod.5|Secretaria"];
+nodo1[ label= "Cod.2|Vice-Presidente"];
+nodo2[ label= "Cod.3|Centro Calculo"];
+nodo3[ label= "Cod.7|Tesoreria"];
+nodo4[ label= "Cod.7|Investigacion"];
+nodo5[ label= "Cod.8|Centro Calculo"];
+nodo6[ label= "Cod.3|Divulgacion"];
+nodo7[ label= "Cod.20|Escuela de Sistemas"];
+nodo8[ label= "Cod.21|Zulma Karina Aguirre"];
+nodo9[ label= "Cod.22|Damaris Campos"];
+nodo10[ label= "Cod.23|Otto Rene Leiva"];
+nodo11[ label= "Cod.24|Aylin Aroche"];
+nodo12[ label= "Cod.25|Cesar Solares"];
+nodo13[ label= "Cod.4|Tesorero"];
+nodo14[ label= "Cod.1|Decano"];
+nodo15[ label= "Cod.6|Vocal 1"];
+nodo14->nodo0
+nodo14->nodo1
+nodo0->nodo2
+nodo1->nodo2
+nodo2->nodo2
+nodo6->nodo2
+nodo13->nodo2
+nodo14->nodo2
+nodo0->nodo3
+nodo1->nodo3
+nodo2->nodo3
+nodo6->nodo3
+nodo13->nodo3
+nodo14->nodo3
+nodo0->nodo4
+nodo1->nodo4
+nodo2->nodo4
+nodo6->nodo4
+nodo13->nodo4
+nodo14->nodo4
+nodo0->nodo5
+nodo1->nodo5
+nodo2->nodo5
+nodo6->nodo5
+nodo13->nodo5
+nodo14->nodo5
+nodo0->nodo6
+nodo1->nodo6
+nodo2->nodo6
+nodo6->nodo6
+nodo13->nodo6
+nodo14->nodo6
+nodo0->nodo7
+nodo1->nodo7
+nodo2->nodo7
+nodo6->nodo7
+nodo13->nodo7
+nodo14->nodo7
+nodo7->nodo8
+nodo7->nodo9
+nodo7->nodo10
+nodo9->nodo11
+nodo8->nodo12
+nodo14->nodo13
+nodo14->nodo15
+}

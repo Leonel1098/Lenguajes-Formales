@@ -1,0 +1,11 @@
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\bin\Debug\Laberinto.exe.config
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\bin\Debug\Laberinto.exe
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\bin\Debug\Laberinto.pdb
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\obj\Debug\Laberinto.csprojAssemblyReference.cache
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\obj\Debug\Laberinto.csproj.GenerateResource.cache
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\obj\Debug\Laberinto.csproj.CoreCompileInputs.cache
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\obj\Debug\Laberinto.exe
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\obj\Debug\Laberinto.pdb
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Laberinto\Laberinto\obj\Debug\WindowsFormsApp1.VistaJuego.resources

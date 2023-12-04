@@ -1,0 +1,89 @@
+GRAMATICA TIPO 2
+
+<inicio>::=[Toke_Reser]:{[Toke_Reser]:(numero);{<Cuerpo><Nuevo_bloque>}
+
+<Cuerpo>::=<bloque_nivel>|<bloque_enemigo>|<bloque_personaje>
+
+<Nuevo_bloque>::=<Cuerpo><Nuevo_bloque>
+				| E
+				
+
+
+				
+<bloque_nivel>::=[Toke_Reser]:{<Cuerpo_nivel>}
+
+
+<Cuerpo_nivel>::=<Configuraciones><Rep_Configuraciones>
+				 <Bloque_Pared>
+				 
+				 
+<Configuraciones>::=[Toke_Reser]:(numero,numero);
+
+<Rep_Configuraciones>::=<Configuraciones><Rep_Configuraciones>
+						| E
+
+						
+						
+<Bloque_Pared>::=[Toke_Reser]:{<Contenido_Pared><rep_contenidoPared};
+
+<Contenido_Pared>::=<Casillas><Dec_Variables><Asig_Variables>
+
+<rep_contenidoPared>::=<Contenido_Pared><Rep_contenido>
+						| E
+						
+						
+<Casillas>::=[Toke_Reser]:(<Posicion>);
+
+<Posicion>::=<Num_id>,<Num_id>
+			  | <Num_id>..<Num_id>,<Num_id>
+			  |<Num_id>,<Num_id>..<Num_id>
+			  |<Num_id>..<Num_id>,<Num_id>..<Num_id>
+			  
+<Num_id>::=numero|identificador
+
+
+
+
+<Dec_Variables>::=[Variable]:=identificador<Otro_Identi>;
+
+<Otro_Identi>::= ,identificador<Rep_otroId>;
+				| E
+				
+<Rep_otroId>::=,identificador<Rep_otroId>;
+				| E
+				
+				
+<Asig_Variables>::=<Asginacion><Operacion>;
+
+<Asginacion>::=identificador:=
+
+<Operacion>::=<Num_id>+<Num_id>;
+			  |<Num_id>-<Num_id>;
+			  |<Num_id>*<Num_id>;
+			  |<Num_id>/<Num_id>;
+			  |<Num_id>;
+			  
+			  
+<bloque_enemigo>::=[Toke_Reser]:{<Cuerpo_Enemigo>}
+
+<Cuerpo_Enemigo>::=<Caminata><Repetir_Caminata>
+
+<Caminata>::=[Toke_Reser]:(<Caminar>);
+
+<Caminar>::=numero..numero,numero
+			|numero,numero..numero
+			
+<Repetir_Caminata>::=<Caminata><Repetir_Caminata>
+					  | E
+					  
+
+					  
+<bloque_personaje>::=[Toke_Reser]:{<Contenido_Personaje><Repe_ContenidoPerso>}
+
+<Contenido_Personaje>::=<Casillas><Dec_Variables><Asig_Variables>
+
+<Repe_ContenidoPerso>::=<Contenido_Personaje><Repe_ContenidoPerso>
+						| E
+
+
+

@@ -1,0 +1,41 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=seashell2];
+nodo0[ label= "Cod.1|Rector"];
+nodo1[ label= "Cod.3|Decano 1"];
+nodo2[ label= "Cod.3|Decano 2"];
+nodo3[ label= "Cod.3|Decano 3"];
+nodo4[ label= "Cod.4|Decano 4"];
+nodo5[ label= "Cod.5|Maestro 1"];
+nodo6[ label= "Cod.6|Maestro 2"];
+nodo7[ label= "Cod.7|Maestro 3"];
+nodo8[ label= "Cod.8|Maestro 4"];
+nodo9[ label= "Cod.9|Maestro 5"];
+nodo10[ label= "Cod.10|Auxiliar 1"];
+nodo11[ label= "Cod.11|Auxiliar 2"];
+nodo12[ label= "Cod.12|Auxiliar 3"];
+nodo0->nodo0
+nodo0->nodo1
+nodo0->nodo2
+nodo0->nodo3
+nodo0->nodo4
+nodo1->nodo6
+nodo2->nodo6
+nodo3->nodo6
+nodo4->nodo6
+nodo1->nodo7
+nodo2->nodo7
+nodo3->nodo7
+nodo1->nodo8
+nodo2->nodo8
+nodo3->nodo8
+nodo4->nodo9
+nodo7->nodo10
+nodo9->nodo10
+nodo7->nodo11
+nodo8->nodo11
+nodo9->nodo11
+nodo7->nodo12
+nodo8->nodo12
+nodo9->nodo12
+}

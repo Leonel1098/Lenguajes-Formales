@@ -1,0 +1,21 @@
+digraph grafica{
+rankdir=TB;
+node [shape = record, style=filled, fillcolor=seashell2];
+nodo0[ label= "Cod.1|Deployer 1"];
+nodo1[ label= "Cod.2|Deployer 2"];
+nodo2[ label= "Cod.10|Deployer 10"];
+nodo3[ label= "Cod.9|Deployer 9"];
+nodo4[ label= "Cod.7|Deployer 7"];
+nodo5[ label= "Cod.6|Deployer 6"];
+nodo6[ label= "Cod.5|Deployer 5"];
+nodo7[ label= "Cod.4|Deployer 4"];
+nodo8[ label= "Cod.3|Deployer 3"];
+nodo0->nodo1
+nodo8->nodo2
+nodo1->nodo3
+nodo0->nodo4
+nodo0->nodo5
+nodo3->nodo6
+nodo8->nodo7
+nodo0->nodo8
+}

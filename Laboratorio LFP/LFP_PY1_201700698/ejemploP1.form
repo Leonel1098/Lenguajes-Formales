@@ -1,0 +1,54 @@
+formulario ~>>[
+    < 
+        tipo : "  etiqueta   " ,
+        valor : " Nombre:"
+    >,
+    <  
+    & 
+        tipo : " texto " ,
+        valor : "Nombre: ",
+        fondo : " Ingrese Nombre "
+    >,
+     <  
+    & 
+        tipo : " texto " ,
+        valor : "Carnet ",
+        fondo : " Ingrese Carnet "
+    >,
+    < 
+        tipo : "grupo-radio",
+        nombre : "Sexo : ",
+        valores : ['Masculino ', 'Femenino' ]@
+    @
+    >,
+     < 
+        tipo : "grupo-option",&
+        nombre : " Pais  : ",
+        valores : ['Guatemala '
+        , 'El Salvador', 'Honduras' ]
+    >,
+    < 
+        tipo 
+        : 
+        " boton " 
+        ,
+         
+        valor : "Mostrar  Entrada"
+        ,
+        evento : "entrada"
+        
+    >,
+    < 
+        tipo 
+        : 
+        " boton " 
+        ,
+         
+        valor : "Mostrar info"
+        ,
+        evento : "info"
+        
+    >
+
+@
+]

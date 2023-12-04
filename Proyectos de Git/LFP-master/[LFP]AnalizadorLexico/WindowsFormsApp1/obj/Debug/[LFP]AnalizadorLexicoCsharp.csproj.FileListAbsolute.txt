@@ -1,0 +1,27 @@
+C:\Users\Javier Solares\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Javier Solares\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.csproj.GenerateResource.cache
+C:\Users\Javier Solares\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Javier Solares\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\[LFP]AnalizadorLexicoCsharp.exe
+C:\Users\Javier Solares\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\[LFP]AnalizadorLexicoCsharp.pdb
+C:\Users\Javier Solares\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\_LFP_AnalizadorLexicoCsharp.Properties.Resources.resources
+C:\Users\Javier Solares\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.exe
+C:\Users\Javier Solares\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.pdb
+C:\Users\Javier Solares\source\repos\[LFP]AnalizadorLexico\WindowsFormsApp1\bin\Debug\[LFP]AnalizadorLexicoCsharp.exe
+C:\Users\Javier Solares\source\repos\[LFP]AnalizadorLexico\WindowsFormsApp1\bin\Debug\[LFP]AnalizadorLexicoCsharp.pdb
+C:\Users\Javier Solares\source\repos\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.csprojAssemblyReference.cache
+C:\Users\Javier Solares\source\repos\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Javier Solares\source\repos\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\_LFP_AnalizadorLexicoCsharp.Properties.Resources.resources
+C:\Users\Javier Solares\source\repos\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.csproj.GenerateResource.cache
+C:\Users\Javier Solares\source\repos\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Javier Solares\source\repos\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.exe
+C:\Users\Javier Solares\source\repos\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.pdb
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\bin\Debug\[LFP]AnalizadorLexicoCsharp.exe
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\bin\Debug\[LFP]AnalizadorLexicoCsharp.pdb
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\_LFP_AnalizadorLexicoCsharp.Properties.Resources.resources
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.csproj.GenerateResource.cache
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.csproj.CoreCompileInputs.cache
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.exe
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\obj\Debug\[LFP]AnalizadorLexicoCsharp.pdb
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\bin\Debug\[LFP]AnalizadorLexicoCsharp.exe.CodeAnalysisLog.xml
+C:\Users\feliciano07\Desktop\[LFP]AnalizadorLexico\WindowsFormsApp1\bin\Debug\[LFP]AnalizadorLexicoCsharp.exe.lastcodeanalysissucceeded

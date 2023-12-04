@@ -1,0 +1,11 @@
+<¿
+Nombre: "reporte01",
+Grafica: "Lineas",
+Titulo: "Reporte de Ventas Agosto",
+TituloX: "Producto",
+TituloY: "Total"
+?>
+Entra al de instrucciones
+GRAFICA :  BARRAS
+TITULO :  REPORTE DE VENTAS AGOSTO
+TITULOX :  PRODUCT

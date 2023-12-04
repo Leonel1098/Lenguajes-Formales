@@ -1,0 +1,25 @@
+
+
+
+<playlist nombre=” De Todo”>
+<Repeticion nveces=”8”>
+<Cancion url=” C:\Users\Javier Solares\Music\iTunes\iTunes Media\Downloads\The day
+that never comes.mp3” artista=” Metallica” álbum=” Death Magnetic” año=”2008”
+duracion=” 8:24”> The day that never comes
+</Cancion>
+</Repeticion>
+<Cancion url=” C:\Users\Javier Solares\Music\iTunes\iTunes Media\Downloads\Heroe.mp3”
+artista=” Enrique Iglesias” álbum=” Escape” año=”2001” duracion=” 4:26”>
+Héroe
+</Cancion>
+<Cancion url=” C:\Users\Javier Solares\Music\iTunes\iTunes Media\Downloads\Aqui estoy
+yo.mp3” artista=” Luis Fonsi” álbum=” Palabras del silencio” año=”2008”
+duracion=” 4:08”> Aquí estoy yo
+</Cancion>
+
+
+</playlist>
+
+<repeticion nveces=””>
+<Cancion url=”” artista=”” album=”” año=”” duracion=””>**</cancion>
+</Repeticion>

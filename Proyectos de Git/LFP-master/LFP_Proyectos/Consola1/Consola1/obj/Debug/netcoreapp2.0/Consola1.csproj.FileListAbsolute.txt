@@ -1,0 +1,11 @@
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\bin\Debug\netcoreapp2.0\Consola1.deps.json
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\bin\Debug\netcoreapp2.0\Consola1.runtimeconfig.json
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\bin\Debug\netcoreapp2.0\Consola1.runtimeconfig.dev.json
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\bin\Debug\netcoreapp2.0\Consola1.dll
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\bin\Debug\netcoreapp2.0\Consola1.pdb
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\obj\Debug\netcoreapp2.0\Consola1.csprojAssemblyReference.cache
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\obj\Debug\netcoreapp2.0\Consola1.csproj.CoreCompileInputs.cache
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\obj\Debug\netcoreapp2.0\Consola1.AssemblyInfoInputs.cache
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\obj\Debug\netcoreapp2.0\Consola1.AssemblyInfo.cs
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\obj\Debug\netcoreapp2.0\Consola1.dll
+C:\Users\feliciano07\Desktop\LFP\LFP_Proyectos\Consola1\Consola1\obj\Debug\netcoreapp2.0\Consola1.pdb
